@@ -188,12 +188,12 @@ function house(){
     //door
     context.beginPath();
     context.fillStyle = "saddlebrown";
-    context.fillRect(400, canvas.height - 225, 75, 125)
+    context.fillRect(400, canvas.height - 225, 75, 125);
 
     //text
-    context.fillStyle = "white"
-    context.font = "12px Georgia"
-    context.fillText("jag klarar inte att göra mer canvas")
+    context.fillStyle = "white";
+    context.font = "48px Georgia";
+    context.fillText("jag klarar mentalt inte att göra mer canvas", 50, 50);
 }
 
 window.onload = init;

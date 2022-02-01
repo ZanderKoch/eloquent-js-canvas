@@ -1,0 +1,19 @@
+div{
+    width: fit-content;
+}
+
+div:hover{
+    animation-name: rainbow;
+    animation-duration: 2s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+}
+
+@keyframes rainbow{
+    16.67% {background: linear-gradient(to right, red 0%, orange, yellow, green, blue, purple 100%);}
+    33.34% {background: linear-gradient(to right, purple 0%, red , orange, yellow, green, blue 100%);}
+    50% {background: linear-gradient(to right, blue 0%, purple  red , orange, yellow, green 100%);}
+    66.68% {background: linear-gradient(to right, green 0%, blue, purple  red , orange, yellow 100%);}
+    83.35% {background: linear-gradient(to right, green 0%, blue, purple  red , orange, yellow 100%);}
+    100% {background: linear-gradient(to right,  yellow 0%, green, blue, purple  red , orange 100%);}
+}
